@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani&display=swap');
+
+body {
+    font-family: 'Ropa Sans';
+    max-width: 697px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    height: 1264px;
+    width: 697px;
+    border: 1px solid black;
+
+}
+
+.ac_box {
+    width: 47px;
+      height: 1264px;
+      
+}
+
+.ac_box_top {
+    border: 0px solid #E6E6E6;
+    border-bottom: none;
+    margin-left: 2px;
+    height: 7px;
+    width: 0px;
+    
+}
+/* Linha da caixa */
+.ac_box_cont {
+    border-left: 657px solid #E6E6E6;
+    border-right: 0px solid #E6E6E6;
+    border-bottom: 3px solid #E6E6E6;
+    max-height: 49px;
+    padding: 0px 10px;
+    
+}
+
+
+
+div#title {
+    color: darkgrey;
+    font-size: 34px;
+    border-left: 44px solid white;
+    top: 8px;
+    margin-bottom: 16px;
+
+}
+
+div#title2 {
+    display: flex;
+    gap: 0px;
+    margin-top: -45px;
+    margin-bottom: 0px;
+    margin-left: 4%;
+    font-size: 10px;
+    color: darkgrey;
+    border-left: 107px solid white;
+}
+
+.icons img {
+    display: flex;
+    margin-top: -13px;
+    margin-bottom: 15px;
+    margin-left: 648px;
+    height: 12px;
+    width: 18px;
+}
+
+.corpo #principal{
+    position: relative;
+    bottom: 925px;
+    margin-left: 44px;
+    width: 608px;
+    height: 259px;
+}
+
+.corpo #Ellipse{
+    position: absolute;
+    display: flex;
+    margin-top: 130px;
+    margin-bottom: 15px;
+    margin-left: 648px;
+    height: 12px;
+    width: 18px;
+}

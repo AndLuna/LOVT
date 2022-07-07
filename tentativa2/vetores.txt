@@ -1,0 +1,41 @@
+    <div class="vetores">
+        <img id="Ellipse1" src="./img/Ellipse 1.svg" alt="Ellipse">
+        <img id="Ellipse2" src="./img/Ellipse 1.svg" alt="Ellipse2">
+        <img id="vector1" src="./img/Vector.png" alt="vector1">
+        <img id="vector2" src="./img/Vector (1).png" alt="vector2">
+     </div>
+
+
+
+
+     css
+.corpo #Ellipse1{
+    position: absolute;
+    display: flex;
+    height: 32px;
+    width: 48px;
+    bottom: 99.5px;
+    left: 592px;
+}
+.corpo #Ellipse2{
+    position: absolute;
+    display: flex;
+    height: 32px;
+    width: 48px;
+    bottom: 99.5px;
+    left: 74px;
+}
+.corpo #vector1{
+    position: absolute;
+    display: flex;
+    bottom: 105.5px;
+    left: 612px;
+}
+
+.corpo #vector2{
+    position: absolute;
+    display: flex;
+    bottom: 105.5px;;
+    left: 92px;
+}
+

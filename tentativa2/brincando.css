@@ -1,0 +1,28 @@
+*{}
+body{
+    width: 700px;
+    height: 1200px;
+}
+
+#principal{
+    position: relative;
+    
+    width: 479px;
+    height: 200px;
+    left: 100px;
+    top: 100px;
+}
+
+h1{
+    position: relative;
+    font-size: 20px;
+    bottom: 150px;
+    left: 200px;
+}
+#Ellipse{
+    position:absolute;
+    font-size: 20px;
+    bottom: 150px;
+    left: 130px;
+}
+
