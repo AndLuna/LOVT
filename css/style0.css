@@ -1,0 +1,117 @@
+/* *{}
+body {
+    max-width: 1346px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 1264px;
+    width: 1346px;
+    border: 1px solid black;
+    margin: 0px;
+    padding: 0px;
+}
+
+div#line{
+    position: relative;
+    width: 1346px;
+    color: black;
+    border: 0.5px solid darkgrey;
+    top: -10px
+}
+
+div#title {
+    position: relative;
+    color: darkgrey;
+    font-size: 30px;
+    left: 120px;
+    top: 10px;
+    bottom: 10px;
+}
+
+div#title2 {
+   position: relative;
+    display: flex;
+    gap: 0px;
+    bottom: 17px;
+    font-size: 9px;
+    color: darkgrey;
+    left: 206px
+}
+
+.icons #bottonLine {
+    position: relative;
+    display: flex;
+    height: 12px;
+    margin-left: 1246px;
+    bottom: 30px;
+}
+
+.corpo{
+    display: flex;
+    justify-content: center;
+}
+.corpo #principal{
+
+    position: relative;
+    bottom: 25px;
+    left: 204px;
+    width: 908px;
+    height: 389px;
+    top: -135px;
+    margin-top:32.5px;
+    border: 10px solid red;
+}
+
+
+.corpo #Ellipse1{
+    position: absolute;
+    display: flex;
+    height: 32px;
+    width: 48px;
+    bottom: 99.5px;
+    left: 592px;
+}
+
+/* .corpo #Ellipse1{
+    position: absolute;
+    height: 32px;
+    width: 48px;
+    margin-top: 32.5px;
+    margin-bottom:00px;
+    left: 592px;
+    bottom: 1000px;
+} */
+
+
+.corpo #Ellipse2{
+    position: absolute;
+    display: flex;
+    height: 32px;
+    width: 48px;
+    bottom: 99.5px;
+    left: 74px;
+}
+/* .corpo #Ellipse2{
+    position: absolute;
+    height: 32px;
+    width: 48px;
+    margin-top: 32.5px;
+    margin-bottom:00px;
+    left: 100px;
+    bottom: 1000px;
+} */
+
+.corpo #vector1{
+    position: absolute;
+    display: flex;
+    bottom: 105.5px;
+    left: 612px;
+}
+
+.corpo #vector2{
+    position: absolute;
+    display: flex;
+    bottom: 105.5px;;
+    left: 92px;
+} */

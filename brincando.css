@@ -1,0 +1,6 @@
+.container{
+  background-color:grey;
+  display:inline-flex;
+  justify-content: flex-end;
+flex-direction: row-reverse;
+}
