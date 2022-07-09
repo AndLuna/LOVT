@@ -1,31 +1,38 @@
 @import url('https://fonts.googleapis.com/css2?family=Ropa+Sans&display=swap');
-body{
-    
-    margin: 0;
-    padding: 0;
+
+body {
+max-width: 1083px;
+   
+
     font-family: 'Ropa Sans';
-    height: 1264px;
+    height: 1691px;
     width: 1083px;
-    border-left: 60px solid white;
+    border: 1px solid rgb(255, 255, 255);
+
+}
+main{
     
+    padding: 5px 10px;
+    margin-top: 0px;
+    border-radius: 10px;
 }
 
-#line{
+#line {
     width: 1083px;
     border: 1px solid #eceaea;
-    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.25);
 }
 
-div#LOVT{
+div#LOVT {
     position: relative;
-    left:120px;
+    left: 120px;
     font-size: 40px;
     top: 30px;
     color: #777777;
 
 }
 
-div#title1{
+div#title1 {
     position: relative;
     display: flex;
     bottom: 7px;
@@ -33,7 +40,8 @@ div#title1{
     color: #AAAAAA;
     left: 206px;
 }
-img#bottonLine{
+
+img#bottonLine {
     position: relative;
     display: flex;
     bottom: 41px;
@@ -41,49 +49,54 @@ img#bottonLine{
     width: 30px;
     height: 30px;
 }
-img#principal{
+
+img#principal {
     position: relative;
-    width:900px ;
+    width: 900px;
     left: 10%;
     top: 20px;
 }
 
-#Ellipse1{
+#Ellipse1 {
     position: relative;
     left: 950px;
-    bottom:220px;
+    bottom: 220px;
 }
-#Ellipse2{
+
+#Ellipse2 {
     position: relative;
     left: 85px;
-    bottom:220px;
+    bottom: 220px;
 }
-#vector1{
+
+#vector1 {
     position: relative;
     display: flex;
     bottom: 253.5px;
     left: 967px;
 }
 
-#vector2{
+#vector2 {
     position: relative;
     display: flex;
     bottom: 269.5px;
     left: 140px;
 }
 
-ul#imagens{
-        list-style: none;
-        display:flex;
-        justify-content: space-around;
-        
-        
+ul#imagens {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    
+
+
 }
-.corpo3 img{
+
+.corpo3 img {
     width: 385px;
 }
 
-.corpo3 p{
+.corpo3 p {
     width: 375px;
     text-align: left;
     /* text-indent: 5px; */
@@ -95,50 +108,120 @@ ul#imagens{
     position: relative;
     bottom: 64px;
     font-size: 14px;
-    
+
 }
 
 
-li#New{
+.newsale{
+    font-size: 30px;
+    display: flex;
+    justify-content:center;
     position: relative;
-    list-style: none;
+    gap: 44%;
+    bottom: 250px;
+    left: 140px;
+}
+
+.newsale #new{
     color: white;
     background-color: #51D275;
     width: 8%;
     border-radius: 12.5px;
-    margin: 10px;
-height: 5vh;
-text-align: center;
-bottom:215px;
-left: 350px;
-font-size: 30px;
+   
+    height: 40px;
+    text-align: center;
+    
 }
 
-li#Sale{
-    position: relative;
-    list-style: none;
+.newsale #sale{
     color: white;
     background-color: #DC9730;
     width: 8%;
     border-radius: 12.5px;
-    margin: 10px;
-height: 5vh;
-text-align: center;
-bottom:258px;
-left: 871px;
-font-size: 30px; 
+   
+    height: 40px;
+    text-align: center;
 }
 
-ul#valores{
-    position:relative;
-    list-style: none;
-    display:flex;
-    justify-content: space-around;
-    bottom: 319px;
-    right: 140px;
+.valores{
     font-size: 30px;
+    display: flex;
+    justify-content:center;
+    position: relative;
+    gap: 40%;
+    bottom: 360px;
+    right: 100px;
     color: #888888;
+}
+.corpo4{
+    margin-top: -100px;
+}
+.corpo4 h1{
+    position: relative;
+    color: grey;
+    bottom: 200px;
+     left:28px;
+    text-align: center;
+}
+.container{
+    position: relative;
+list-style: none;
+bottom: 200px;
+margin-left: 250px ;
+}
 
-    
-    
+#rectangle14{
+    background: url('/img/Rectangle\ 11.png');
+}
+#rectangle15{
+    background: url('/img/Rectangle\ 12.png');
+}
+#rectangle16{
+    background: url('/img/Rectangle\ 13.png');
+}
+
+.containertxt{
+   position: relative;
+   text-align: center;
+   bottom: 470px;
+   line-height: 65px;
+   left: 27px;
+   color: white;
+}
+
+.footer{
+    position: relative;
+
+    background-color: #333333;
+    width: 1083px;
+    height: 280px;
+    bottom: 420px;
+    left: 0px;
+    margin-bottom: -150px;
+}
+
+#map{
+    position: relative;
+    padding: 10px;
+    width: 400px;
+}
+
+.footericons
+{display: flex;
+    justify-content: flex-end;
+    position: relative;
+    bottom: 50px;
+    right: 100px;
+    height:30px ;
+    gap: 1%;
+}
+
+.footertxt{
+    background-color: #333333;
+    color: white;
+    width: 200px;
+    position: relative;
+    left: 77%;
+    bottom: 90%;
+
 }

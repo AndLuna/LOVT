@@ -1,0 +1,213 @@
+ul#imagens {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    
+
+
+}
+
+.corpo3 img {
+    width: 385px;
+}
+
+.corpo3 p {
+    width: 375px;
+    text-align: left;
+    /* text-indent: 5px; */
+    margin-top: 60px;
+    background-color: rgb(240, 240, 240);
+    height: 70px;
+    border-top: 60px solid rgb(240, 240, 240);
+    border-left: 10px solid rgb(240, 240, 240);
+    position: relative;
+    bottom: 64px;
+    font-size: 14px;
+
+}
+
+
+li#New {
+
+    position: relative;
+    list-style: none;
+    color: white;
+    background-color: #51D275;
+    width: 8%;
+    border-radius: 12.5px;
+    margin: 10px;
+    height: 5vh;
+    text-align: center;
+    font-size: 30px;
+}
+
+li#Sale {
+    position: relative;
+    display: flex;
+    list-style: none;
+    color: white;
+    background-color: #DC9730;
+    width: 8%;
+    border-radius: 12.5px;
+    margin: 10px;
+    height: 5vh;
+    text-align: center;
+    bottom: 258px;
+    left: 871px;
+    font-size: 30px;
+}
+
+ul#valores {
+    position: relative;
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    bottom: 319px;
+    right: 140px;
+    font-size: 30px;
+    color: #888888;
+
+
+
+}
+
+/* ul#valores{
+position: relative;
+display: flex;
+top: 279.5px;
+left: 230px;
+gap: 300px;
+} */
+
+
+
+div.textos{
+  /* border: 5px solid lightblue;
+  display:flex;
+  justify-content:center;
+  gap: 16%; */
+  /* display:flex;
+  justify-content:center; */
+  /* width: 375px; */
+  text-align: left;
+  /* text-indent: 5px; */
+  /* margin-top: 60px;
+  background-color: rgb(240, 240, 240);
+  height: 70px;
+  border-top: 60px solid rgb(240, 240, 240);
+  border-left: 10px solid rgb(240, 240, 240);
+  position: relative;
+  bottom: 64px;
+  display: flex;
+  justify-content: space-between; */
+  position: relative;
+  display:flex;
+  justify-content:center;
+  gap: 15%;
+  bottom: 4px;
+  width: 100%;
+
+ 
+  
+  
+}
+
+.texto1{
+  /* border: 5px solid lightsteelblue;   */
+  position: relative;
+  margin-left: 6.5%;
+  background-color: #EEEEEE; 
+  border-left: -10px solid #EEEEEE; 
+  border-right: 0px solid #EEEEEE; 
+  position: relative;
+  font-size: 20px;
+
+}
+.texto2{
+  /* border: 5px solid lightsteelblue;   */
+  margin-right: 4%;
+  background-color: #EEEEEE; 
+  border-left: 0px solid #EEEEEE; 
+  border-right: 14px solid #EEEEEE; 
+  position: relative;
+  left: 7px;
+  font-size: 20px;
+
+
+}
+
+
+.corpo3{
+  position: relative;
+  border: 10px solid red;
+  bottom: 20px;
+
+  
+}
+
+.casas{
+  /* border: 7px solid yellow; */
+  display:flex;
+  justify-content:center;
+  gap: 3%;
+  
+}
+.casas img{
+  width: 420px;
+}
+
+div#casa1{
+  /* border: 5px solid blue; */
+  margin-left: 30px;
+}
+div#casa2{
+  /* border: 5px solid blue; */
+  margin-left: 30px;
+}
+
+div.texto1{
+  position: relative;
+  background-color: #EEEEEE;
+  width: 392px;
+  padding: 27px 14px;
+ border-top: 30px solid #EEEEEE;
+  font-size: 16px;
+  left: 95px;
+  bottom: 4px;
+
+
+}
+div.texto2{
+  border-top: 30px solid #EEEEEE;
+  position: relative;
+  background-color: #EEEEEE;
+  width: 392px;
+  padding: 27px 14px;
+  font-size: 16px;
+  margin-left: 578px;
+  bottom: 170px;
+}
+
+
+div.NS{
+  /* position: relative; */
+  display:flex;
+  justify-content:center;
+  border: 4px solid green;
+  margin-bottom: 0px;
+  bottom: 325px; 
+}
+
+div#New{
+  color: white;
+  padding: 0px 0px 0px 14px;
+  background-color: #51D275;
+  width: 4%;
+  border-radius: 12.5px;
+  margin-right: 60px;
+
+  /* border: 10px solid black; */
+  position: relative;
+  bottom: 360px;
+  right: 30px;
+}
